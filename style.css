@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    /* height: 600px; */
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+.watermark {
+    /* width: 800px;
+    height: 600px; */
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* margin: 0 auto; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.data {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    color: blueviolet;
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+/* 长度：row > n*data > watermark */
